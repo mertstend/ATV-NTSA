@@ -1,6 +1,11 @@
 function [dydt] = ode_lorenz(t, y, sigma, rho, beta)
 % [dydt] = ode_lorenz(t, y, sigma, rho, beta)
 
+% (c) Merten Stender
+% Hamburg University of Technology, Dynamics Group
+% m.stender@tuhh.de
+% -------------------------------------------------------------------------
+
 % Lorenz systems
 % dxdt = sigma*(y-x);
 % dydt = x*(rho-z)-y;
