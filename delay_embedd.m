@@ -17,7 +17,7 @@ function [X] = delay_embedd(s, tau, m)
 N = length(s);
 
 % resulting length of the time delay embedded vectors
-N_max = N-(tau*(m-1)); 
+N_max = N-(tau*(m-1));
 
 % per-allocate the resulting array [N, m]
 X = nan(N_max, m);
